@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Search from "./Search";
 import DayHumidity from "./DayHumidity";
 import Temperature from "./Temperature";
+import Current from "./Current";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);

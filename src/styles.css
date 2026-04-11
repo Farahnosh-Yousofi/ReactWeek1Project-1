@@ -122,3 +122,15 @@ footer {
   border-radius: 5px;
   box-shadow: 0 0 10px #b15faf;
 }
+
+.but {
+  background-color: #4d7f07;
+  font-size: medium;
+  border: 1px solid#b15faf;
+  border-radius: 5px;
+}
+
+.onCopy {
+  font-size: medium;
+  color: #b15faf;
+}
