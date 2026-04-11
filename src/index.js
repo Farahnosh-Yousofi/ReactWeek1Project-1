@@ -22,7 +22,7 @@ root.render(
           <DayHumidity />
         </div>
         <div className="col-6">
-          <Temperature temp={22} />
+          <Temperature temperature={22} unit = "Metric"/>
         </div>
       </div>
 
