@@ -16,7 +16,6 @@ root.render(
     <div>
       <App />
       <Search />
-      <h1>Paris</h1>
       <div className="row">
         <div className="col-6">
           <DayHumidity />
