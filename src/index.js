@@ -7,6 +7,7 @@ import Search from "./Search";
 import DayHumidity from "./DayHumidity";
 import Temperature from "./Temperature";
 import Current from "./Current";
+import Loop from "./Loop";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -24,7 +25,7 @@ root.render(
           <Temperature temperature={12} unit="Metric" />
         </div>
       </div>
-
+      <Loop />
       <Footer />
     </div>
   </StrictMode>
